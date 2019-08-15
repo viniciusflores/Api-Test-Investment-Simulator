@@ -2,6 +2,11 @@ package project_constants;
 
 import io.restassured.http.ContentType;
 
+/**
+ * 
+ * @author vinicius.flores
+ *
+ */
 public class Constants {
 	public static final String APP_BASE_URL = "http://5b847b30db24a100142dce1b.mockapi.io/api";
 	public static final String APP_BASE_PATH = "/v1";

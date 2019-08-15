@@ -8,6 +8,11 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import project_constants.Constants;
 
+/**
+ * 
+ * @author vinicius.flores
+ *
+ */
 public class BaseTest extends Constants {
 	@BeforeClass
 	public static void setupClass() {

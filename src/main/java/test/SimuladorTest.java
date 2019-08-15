@@ -11,6 +11,11 @@ import org.testng.annotations.Test;
 
 import core.BaseTest;
 
+/**
+ * 
+ * @author vinicius.flores
+ *
+ */
 public class SimuladorTest extends BaseTest {
 	ArrayList<String> months = new ArrayList<>(Arrays.asList("112", "124", "136", "148"));
 	ArrayList<String> values = new ArrayList<>(Arrays.asList("2.802", "3.174", "3.564", "3.971"));
