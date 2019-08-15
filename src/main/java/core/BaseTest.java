@@ -10,7 +10,7 @@ import project_constants.Constants;
 
 public class BaseTest extends Constants {
 	@BeforeClass
-	public void setupClass() {
+	public static void setupClass() {
 		RestAssured.baseURI = APP_BASE_URL;
 		RestAssured.basePath = APP_BASE_PATH;
 
